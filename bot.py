@@ -63,8 +63,3 @@ class NotificationBot:
             return True
 
         return False
-
-
-if __name__ == '__main__':
-    bot = NotificationBot('New Balance', 'BB480LV1-36569', '480', '40')
-    bot.execute_bot()
