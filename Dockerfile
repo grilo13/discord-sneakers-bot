@@ -16,7 +16,7 @@ RUN poetry install -n --no-dev --no-root
 RUN poetry config experimental.new-installer true
 
 COPY bot.py /app/
-COPY discord-bot.py /app/config
+COPY discord-bot.py /app/
 
 
 CMD ["python", "discord-bot.py"]
