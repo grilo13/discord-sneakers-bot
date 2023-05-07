@@ -13,7 +13,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 
-@tasks.loop(minutes=5)
+@tasks.loop(minutes=20)
 async def check_sizes():
     shoe_number = '39.5'
     notification_bot = NotificationBot('New Balance', 'BB480LV1-36569', '480', shoe_number)
