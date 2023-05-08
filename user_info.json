@@ -1,0 +1,15 @@
+{
+  "users": {
+    "158285592822677504": {
+      "schedules": [
+        {
+          "minutes": 5,
+          "brand": "New Balance",
+          "reference": "BB480LV1-36569",
+          "model": "480",
+          "size": "39.5"
+        }
+      ]
+    }
+  }
+}
