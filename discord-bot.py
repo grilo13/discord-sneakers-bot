@@ -105,6 +105,7 @@ async def add_schedule(interaction: discord.Interaction, brand: str, reference: 
 
 @bot.event
 async def on_ready():
+    print("Bot {} has just arrived in the Server!".format(bot.user))
     global users_info
     with open("user_info.json") as f:
         users_info = json.load(f)
