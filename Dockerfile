@@ -17,6 +17,6 @@ RUN poetry config experimental.new-installer true
 
 COPY bot.py /app/
 COPY discord-bot.py /app/
-
+COPY user_info.json /app/
 
 CMD ["python", "discord-bot.py"]
