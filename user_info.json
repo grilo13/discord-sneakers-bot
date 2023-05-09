@@ -1,13 +1,16 @@
 {
   "users": {
     "158285592822677504": {
+      "max_number_of_schedules": 2,
       "schedules": [
         {
           "minutes": 5,
           "brand": "New Balance",
           "reference": "BB480LV1-36569",
           "model": "480",
-          "size": "39.5"
+          "size": "39.5",
+          "image": "https://nb.scene7.com/is/image/NB/bb480lgt_nb_02_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440",
+          "task": "Task-13"
         }
       ]
     }
