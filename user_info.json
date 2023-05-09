@@ -4,7 +4,7 @@
       "max_number_of_schedules": 2,
       "schedules": [
         {
-          "minutes": 5,
+          "minutes": 30,
           "brand": "New Balance",
           "reference": "BB480LV1-36569",
           "model": "480",
