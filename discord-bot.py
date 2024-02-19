@@ -9,7 +9,7 @@ import discord
 
 from bot import NotificationBot
 
-DISCORD_TOKEN = os.getenv('DISCORD_TOKEN', 'MTEwNDA4NTkyNDUwMzExMzc1OA.GKb-3p.q-d9S0U-U8daoPwZuj6rJM4nQsgJAgGuLSd6is')
+DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
 TEST_SIZES = ["36", "37", "37.5", "38", "38.5", "39", "39.5", "40", "41", "41.5", "42", "42.5", "43", "44"]
 
 users_info = {}
